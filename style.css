@@ -8,6 +8,7 @@ body {
     align-items: center;
     margin: 0px;
     padding: 0px;
+    gap: 50px;
 }
 
 .container {
@@ -19,12 +20,17 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+   
 }
 
 .pixel {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 32px;
     width: 32px;
+
+    margin: 0px;
+    gap: 0px;
+    
 }
 
 .hover {
@@ -34,4 +40,13 @@ body {
 
 .onclick {
     background-color: black;
+}
+
+.eraseButton {
+    display: flex;
+    border-radius: 8px;
+    font-size: larger;
+    background-color: aquamarine;
+    font-weight: bold;
+
 }
